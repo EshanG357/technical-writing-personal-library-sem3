@@ -1,0 +1,5 @@
+$ .\calculator.exe
+Addition: 25
+Subtraction: 15
+Multiplication: 100
+Division: 4
