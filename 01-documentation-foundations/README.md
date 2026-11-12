@@ -15,7 +15,7 @@ The section covers both conventional document preparation and automated software
 
 ### 01. Introduction to Technical Documentation
 
-[Introduction to Technical Documentation](introduction-to-technical-documentation.md)
+- [Introduction to Technical Documentation](introduction-to-technical-documentation.md)
 
 Topics covered:
 - Meaning and purpose of technical documentation
@@ -30,7 +30,7 @@ Topics covered:
 
 #### Doxygen
 
-[Doxygen — Automated Code Documentation](03-doxygen.md)
+- [Doxygen — Automated Code Documentation](03-doxygen.md)
 
 Topics covered:
 - Introduction and key features
@@ -45,7 +45,7 @@ Topics covered:
 
 #### Google Docs
 
-*Documentation chapter planned.*
+- [Google Docs — Collaborative Document Creation](04-google-docs.md)
 
 Topics to be covered:
 - Introduction and interface
