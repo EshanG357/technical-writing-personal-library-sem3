@@ -1,55 +1,95 @@
-# Course Coverage Checklist
+# Course Coverage
 
-Use this checklist to track documentation progress. The checklist reflects the repository contents and syllabus maps; it is not a claim that the corresponding topic has been fully practised or assessed.
+## Theory Syllabus
 
-**Status key:** `[ ]` not yet documented or reviewed · `[-]` in progress · `[x]` documented and reviewed
+### 1. Documentation Foundations
+- Introduction to Technical Documentation
+- Google Docs
+- Doxygen
 
-## Theory syllabus
+### 2. Drawing and Graphics
+- Introduction to Computer Graphics
+- Raster and Vector Graphics
+- Inkscape
+- Xfig
+- OpenOffice Draw
+- Draw.io
+- Technical Diagrams and Illustrations
+- Graph Plotting Software
+- GNUPlot
+- Python Matplotlib
 
-### Documentation and tools
-- [ ] Introduction to technical documentation
-- [ ] Google Docs
-- [ ] Doxygen
-- [ ] Drawing software overview
-- [ ] Graph plotting software (GNUPlot)
+### 3. Git and GitHub
+- Introduction to Version Control
+- Local, Centralised and Distributed Version Control Systems
+- Git Fundamentals and Commands
+- GitHub and Remote Repositories
+- Branching and Merging
+- Merge Conflicts
+- Pull Requests and Collaboration
+- Forking and Cloning
+- SVN and Comparison with Git
 
-### Version control
-- [ ] Version control concepts and types
-- [ ] Git fundamentals and commands
-- [ ] GitHub and collaboration
-- [ ] SVN overview and comparison
+### 4. LaTeX
+- Introduction to LaTeX
+- Installation and LaTeX IDEs
+- First LaTeX Document
+- Article and Book Document Classes
+- Sections and Document Organisation
+- Paper Sizes and Packages
+- Margins, Headers and Footers
+- Page Orientation and Multiple Columns
+- Text Styles, Sizes and Alignment
+- Colours and Lists
+- Mathematical Typesetting
+- Tables and Borders
+- Merging Rows and Columns
+- Long Tables
+- Figures and Images
+- Image Rotation and Scaling
+- Cross-Referencing
+- Bibliography and Citations
+- Indexing
 
-### LaTeX foundations and page styling
-- [ ] LaTeX installation and IDEs
-- [ ] First document and document structure
-- [ ] Article and book classes
-- [ ] Sections and document organisation
-- [ ] Paper sizes and packages
-- [ ] Margins, headers, footers, orientation and columns
-- [ ] Error messages and troubleshooting
+### 5. Beamer and Presentations
+- Introduction to Beamer
+- Frames and Slides
+- Multiple Columns
+- Blocks
+- Themes and Formatting
+- Images, Tables and Mathematical Expressions
+- Overlays and Incremental Content
 
-### Formatting and document content
-- [ ] Text styles, sizes and alignment
-- [ ] Colours and lists
-- [ ] Complex mathematics
-- [ ] Tables, borders and merged cells
-- [ ] Long tables
-- [ ] Figures, rotation and scaling
+## Laboratory Syllabus
 
-### References and indexing
-- [ ] Cross-referencing
-- [ ] Bibliography and citations
-- [ ] Indexing
+### Unit 1 — 8 Hours
+- Documentation using Google Docs
+- Creating Presentations
+- Doxygen
+- Graph Plotting using Python Matplotlib
+- Drawing Software
+- LaTeX / Overleaf
+- Beamer Presentations
+- Frames, Multiple Columns and Blocks
 
-## Laboratory syllabus
+### Unit 2 — 8 Hours
+- LaTeX Introduction and Installation
+- First Document
+- Article and Book Classes
+- Sections and Document Organisation
+- Paper Sizes and Packages
+- Margins
+- Headers and Footers
+- Multiple Columns
 
-- [ ] Unit 1 — documentation tools, drawing, plotting, LaTeX / Overleaf and Beamer
-- [ ] Unit 2 — LaTeX foundations and page styling
-- [ ] Unit 3 — formatting, mathematics and tables
-- [ ] Unit 4 — cross-referencing, bibliography and indexing
+### Unit 3 — 6 Hours
+- Text Styles, Sizes and Alignment
+- Complex Mathematics
+- Tables
+- Simple and Dashed Borders
+- Merging Rows and Columns
 
-Update a unit's status only after checking its actual practical records and evidence.
-
-## Additional learning
-
-- [ ] Record only topics actually explored beyond the prescribed syllabus.
+### Unit 4 — 6 Hours
+- Cross-Referencing
+- Bibliography and References
+- Indexing
