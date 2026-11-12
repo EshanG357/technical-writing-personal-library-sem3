@@ -1,6 +1,6 @@
 # Theory Syllabus Map
 
-This map organises the supplied Technical Writing theory syllabus into the library's seven sections. It maps prescribed areas to repository locations without treating the presence of a chapter as proof that all practical work is complete.
+This map organises the supplied Technical Writing theory syllabus into the library's five main subject sections. Laboratory work and additional learning are maintained separately.
 
 ## 1. Documentation foundations
 
