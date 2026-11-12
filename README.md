@@ -53,7 +53,6 @@ For detailed syllabus alignment, refer to the [theory syllabus map](docs/theory-
 | [03 — Git and GitHub](03-git-and-github/README.md) | Version control, Git commands, branching and collaboration |
 | [04 — Drawing and Graphics](04-drawing-and-graphics/README.md) | Vector graphics, diagrams, graph plotting and graphics formats |
 | [05 — Beamer and Presentations](05-beamer-and-presentations/README.md) | Presentation creation, slide formatting and advanced Beamer |
-| [07 — Additional Learning](07-additional-learning/README.md) | Topics explored beyond the prescribed syllabus |
 | [Practical Examples](practical-examples/README.md) | Reproducible examples, source files and visible outputs |
 | [Documentation Templates](templates/README.md) | Reusable topic and laboratory report templates |
 | [References](references/README.md) | Books, official documentation and learning resources |
