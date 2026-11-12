@@ -10,7 +10,7 @@ A LaTeX distribution such as TeX Live or MiKTeX.
 
 In PowerShell or a terminal opened in this directory:
 
-```bash
+```powershell
 pdflatex report.tex
 pdflatex report.tex
 ```
@@ -19,6 +19,6 @@ Run LaTeX twice so cross-references can resolve. The example uses a framed place
 
 ## Expected output
 
-The generated `report.pdf` contains a title, table of contents, mathematical expressions, a table, a framed figure and cross-references.
+The compiled [report.pdf](outputs/report.pdf) contains a title, table of contents, mathematical expressions, a table, a framed figure and cross-references.
 
-The PDF is a generated build artifact and is not committed. See [outputs/README.md](outputs/README.md).
+The PDF is committed alongside the source. Recompile it whenever you modify `report.tex`.
