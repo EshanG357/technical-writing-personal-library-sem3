@@ -22,7 +22,7 @@ Run from this directory:
 gnuplot sine.gp
 ```
 
-The script creates `sine.png` in the current directory.
+The script creates `sine.png` in the current directory. A sample SVG preview is included in [outputs](outputs/sine-cosine.svg).
 
 ## Python Matplotlib
 
@@ -38,4 +38,12 @@ Run:
 python plots.py
 ```
 
-The script saves line, bar and scatter plot images in the current directory.
+The script saves `line_plot.png`, `bar_chart.png` and `scatter_plot.png` in the current directory. Sample SVG previews are included below.
+
+### Sample outputs
+
+![Line plot](outputs/line-plot.svg)
+
+![Bar chart](outputs/bar-chart.svg)
+
+![Scatter plot](outputs/scatter-plot.svg)

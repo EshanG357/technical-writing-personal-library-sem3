@@ -1,11 +1,10 @@
-
 # Technical Writing: A Personal Library
 
 ## Semester III — MNIT Jaipur
 
 A structured academic and practical knowledge repository for the Technical Writing and Technical Writing Laboratory courses.
 
-This repository documents course concepts, technical tools, workflows, practical exercises, laboratory assignments, source files, output evidence, and additional learning undertaken during Semester III.
+This repository documents course concepts, technical tools, workflows, practical examples, source files, output evidence, and additional learning undertaken during Semester III.
 
 ---
 
@@ -15,19 +14,17 @@ This repository documents course concepts, technical tools, workflows, practical
 - [Course Coverage](#course-coverage)
 - [Navigate the Library](#navigate-the-library)
 - [Documentation Standards](#documentation-standards)
-- [Laboratory Work](#laboratory-work)
+- [Practical Examples](#practical-examples)
 - [Progress Tracking](#progress-tracking)
 - [Academic Integrity](#academic-integrity-and-attribution)
 - [Contributing](#contributing)
 - [Author](#author)
 
----
-
 ## Repository Goals
 
 - Maintain an organised record of the complete course.
 - Explain technical concepts through structured notes and examples.
-- Preserve practical exercises, source files, and output evidence.
+- Preserve practical examples, source files, and output evidence.
 - Demonstrate responsible use of Git and GitHub.
 - Provide a useful reference for examination revision and future projects.
 
@@ -45,7 +42,7 @@ This repository documents course concepts, technical tools, workflows, practical
 | Graph Plotting | GNUPlot and Python Matplotlib |
 | Version Control | Git, GitHub and SVN |
 
-For detailed syllabus alignment, refer to the [theory syllabus map](docs/theory-syllabus-map.md), [laboratory syllabus map](docs/lab-syllabus-map.md), and [course coverage checklist](docs/course-coverage.md).
+For detailed syllabus alignment, refer to the [theory syllabus map](docs/theory-syllabus-map.md), [laboratory syllabus map](docs/lab-syllabus-map.md), and [course coverage](docs/course-coverage.md).
 
 ## Navigate the Library
 
@@ -56,8 +53,8 @@ For detailed syllabus alignment, refer to the [theory syllabus map](docs/theory-
 | [03 — Git and GitHub](03-git-and-github/README.md) | Version control, Git commands, branching and collaboration |
 | [04 — Drawing and Graphics](04-drawing-and-graphics/README.md) | Vector graphics, diagrams, graph plotting and graphics formats |
 | [05 — Beamer and Presentations](05-beamer-and-presentations/README.md) | Presentation creation, slide formatting and advanced Beamer |
-| [06 — Laboratory Work](06-lab-work/README.md) | Four laboratory units, exercises and practical evidence |
 | [07 — Additional Learning](07-additional-learning/README.md) | Topics explored beyond the prescribed syllabus |
+| [Practical Examples](practical-examples/README.md) | Reproducible examples, source files and visible outputs |
 | [Documentation Templates](templates/README.md) | Reusable topic and laboratory report templates |
 | [References](references/README.md) | Books, official documentation and learning resources |
 | [Documentation and Syllabus Maps](docs/) | Course coverage, theory and laboratory syllabus maps |
@@ -77,34 +74,21 @@ Topic documentation should aim to include:
 
 The structure may be adapted according to the subject. Documentation should prioritise clarity, correctness and practical usefulness rather than unnecessary length.
 
-## Laboratory Work
+## Practical Examples
 
-Laboratory documentation is organised according to the four units in the supplied laboratory syllabus.
+The [practical-examples](practical-examples/README.md) directory contains small demonstrations across the major course topics. Each example includes source files and instructions, with sample outputs or generated visual assets where appropriate.
 
-Each practical record should include, where applicable:
-
-- Actual task statement and objective.
-- Tools and technologies used.
-- Procedure and implementation.
-- Source files and commands.
-- Screenshots or generated output.
-- Observations and conclusion.
-
-Use the [laboratory report template](templates/lab-report-template.md) when documenting practical work.
-
-Only include assignments and results that have actually been completed.
+The examples are demonstrations, not substitutes for assigned laboratory submissions.
 
 ## Progress Tracking
 
-The [course coverage checklist](docs/course-coverage.md) tracks the documentation and review status of syllabus topics.
-
-A topic should only be marked as documented and reviewed after its corresponding material has been checked.
+The [course coverage document](docs/course-coverage.md) records the topics included in the theory and laboratory syllabus.
 
 ## Academic Integrity and Attribution
 
 - Attribute external sources, diagrams, code and other material where appropriate.
 - Review, test and understand AI-assisted content before including it.
-- Ensure that practical exercises and reported results represent work actually completed.
+- Ensure that reported results represent work actually completed.
 - Never include passwords, API keys, access tokens or other confidential information in the repository.
 
 ## Contributing

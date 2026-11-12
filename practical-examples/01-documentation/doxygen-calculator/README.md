@@ -6,6 +6,7 @@ A small C++ calculator used to demonstrate source-code documentation with Doxyge
 
 - `main.cpp` — documented calculator functions and program entry point
 - `Doxyfile` — Doxygen configuration
+- [Sample calculator output](outputs/calculator-run.txt)
 
 ## Requirements
 
@@ -15,12 +16,19 @@ A small C++ calculator used to demonstrate source-code documentation with Doxyge
 
 ## Build and run
 
+On Windows PowerShell:
+
+```powershell
+g++ -std=c++17 -Wall -Wextra -pedantic main.cpp -o calculator.exe
+.\calculator.exe
+```
+
+On Linux/macOS:
+
 ```bash
 g++ -std=c++17 -Wall -Wextra -pedantic main.cpp -o calculator
 ./calculator
 ```
-
-On Windows, run `calculator.exe` after compilation.
 
 ## Generate documentation
 
@@ -30,12 +38,16 @@ From this directory:
 doxygen Doxyfile
 ```
 
-Open `html/index.html` in a web browser.
+Open `docs/html/index.html` in a web browser.
 
 ## Expected behaviour
 
-The program adds, subtracts, multiplies and divides two numbers. Division by zero is handled explicitly. The generated documentation should include the documented functions and the Calculator module.
+The program adds, subtracts, multiplies and divides two numbers. Division by zero is checked before calling the division function. The generated documentation should include the documented functions and their parameter descriptions.
+
+## Output
+
+The expected terminal result is recorded in [outputs/calculator-run.txt](outputs/calculator-run.txt). The interactive Doxygen HTML site is generated locally and is not committed as build output.
 
 ## Note
 
-Generated HTML is build output. The source code and Doxyfile are the reproducible inputs.
+Generated executables and HTML files are intentionally excluded from Git. The source code and Doxyfile are the reproducible inputs.

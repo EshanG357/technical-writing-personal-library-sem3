@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="white"/><text x="450" y="36" font-family="Arial" font-size="24" text-anchor="middle" fill="#222">Sine and Cosine Functions</text>
+<g stroke="#ddd" stroke-width="1"><path d="M90 90H840 M90 170H840 M90 250H840 M90 330H840 M90 410H840"/><path d="M90 70V430 M240 70V430 M390 70V430 M540 70V430 M690 70V430 M840 70V430"/></g>
+<path d="M90 250H840 M465 70V430" stroke="#555" stroke-width="2"/>
+<g fill="#555" font-family="Arial" font-size="13"><text x="90" y="455">-2π</text><text x="240" y="455">-π</text><text x="390" y="455">0</text><text x="540" y="455">π</text><text x="690" y="455">2π</text><text x="840" y="455">3π</text><text x="50" y="95">1</text><text x="50" y="255">0</text><text x="45" y="415">-1</text></g>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="90,250 120,170 150,110 180,90 210,110 240,170 270,250 300,330 330,390 360,410 390,390 420,330 450,250 480,170 510,110 540,90 570,110 600,170 630,250 660,330 690,390 720,410 750,390 780,330 810,250 840,170"/>
+<polyline fill="none" stroke="#dc6b28" stroke-width="3" points="90,90 120,110 150,170 180,250 210,330 240,390 270,410 300,390 330,330 360,250 390,170 420,110 450,90 480,110 510,170 540,250 570,330 600,390 630,410 660,390 690,330 720,250 750,170 780,110 810,90 840,110"/>
+<g font-family="Arial" font-size="15"><path d="M650 55h28" stroke="#2563eb" stroke-width="3"/><text x="685" y="60" fill="#222">sin(x)</text><path d="M740 55h28" stroke="#dc6b28" stroke-width="3"/><text x="775" y="60" fill="#222">cos(x)</text></g></svg>

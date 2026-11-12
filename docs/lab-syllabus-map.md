@@ -1,6 +1,6 @@
 # Laboratory Syllabus Map
 
-This map follows the supplied Technical Writing Laboratory syllabus and its four units.
+This map follows the supplied Technical Writing Laboratory syllabus and its four units. The repository's practical demonstrations are collected under [Practical Examples](../practical-examples/README.md). Assigned lab submissions are not stored in this repository version.
 
 ## Unit 1 — 8 hours
 
@@ -11,7 +11,7 @@ This map follows the supplied Technical Writing Laboratory syllabus and its four
 - LaTeX / Overleaf documentation.
 - Beamer: slides, frames, multiple columns and blocks.
 
-**Library location:** [Lab Unit 1](../06-lab-work/unit-1/README.md)
+**Related demonstrations:** [Google Docs and Doxygen](../practical-examples/01-documentation/), [drawing and plotting](../practical-examples/04-drawing-and-graphics/), [Beamer](../practical-examples/05-beamer/).
 
 ## Unit 2 — 8 hours
 
@@ -23,7 +23,7 @@ This map follows the supplied Technical Writing Laboratory syllabus and its four
 - Margins, headers and footers.
 - Multiple columns.
 
-**Library location:** [Lab Unit 2](../06-lab-work/unit-2/README.md)
+**Related demonstration:** [LaTeX report](../practical-examples/02-latex/).
 
 ## Unit 3 — 6 hours
 
@@ -33,7 +33,7 @@ This map follows the supplied Technical Writing Laboratory syllabus and its four
 - Simple and dashed borders.
 - Merging rows and columns.
 
-**Library location:** [Lab Unit 3](../06-lab-work/unit-3/README.md)
+**Related demonstration:** [LaTeX report](../practical-examples/02-latex/).
 
 ## Unit 4 — 6 hours
 
@@ -41,8 +41,8 @@ This map follows the supplied Technical Writing Laboratory syllabus and its four
 - Bibliography and references.
 - Indexing.
 
-**Library location:** [Lab Unit 4](../06-lab-work/unit-4/README.md)
+**Related demonstration:** [LaTeX report](../practical-examples/02-latex/).
 
 ## Evidence for practical work
 
-For each actual lab task, add the task sheet or problem statement when permitted, implementation files, screenshots or output, and a short explanation. Do not invent tasks to fill gaps; add them as they are assigned and completed.
+The examples demonstrate selected workflows and should not be mistaken for completed, assigned laboratory submissions. Add actual assigned work only if it is required and completed.

@@ -9,6 +9,13 @@ desktop.ini
 *.swp
 *.swo
 
+# Compiled programs and generated documentation
+*.exe
+*.out
+docs/html/
+docs/latex/
+html/
+
 # LaTeX generated files
 *.aux
 *.bbl
@@ -18,12 +25,13 @@ desktop.ini
 *.lof
 *.log
 *.lot
+*.nav
 *.out
+*.snm
 *.synctex.gz
 *.toc
-*.nav
-*.snm
 *.vrb
+*.pdf
 
 # Python
 __pycache__/
