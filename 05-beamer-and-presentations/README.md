@@ -1,4 +1,3 @@
-
 # Beamer and Presentations
 
 ## Overview
@@ -9,10 +8,6 @@ LaTeX provides a presentation document class called Beamer, which allows users t
 
 This section introduces Beamer, its document structure, slide creation, formatting, graphical elements, and presentation design principles.
 
-The documentation is based on the Beamer concepts introduced in the course's LaTeX lecture materials and includes additional practical examples.
-
----
-
 ## Contents
 
 ### 01. Introduction to Beamer
@@ -20,15 +15,11 @@ The documentation is based on the Beamer concepts introduced in the course's LaT
 [Introduction to Beamer](01-introduction-to-beamer.md)
 
 Topics covered:
-- Introduction to presentations
-- Introduction to Beamer
-- Features of Beamer
-- Beamer vs article document class
-- Beamer document structure
-- Creating a basic presentation
-- Frames and slides
-- Title pages
-- Sections and navigation
+- Introduction to presentations and Beamer
+- Features and advantages of Beamer
+- Beamer compared with other document classes
+- Document structure, frames and slides
+- Title pages, sections and navigation
 
 ### 02. Creating and Formatting Slides
 
@@ -40,8 +31,7 @@ Topics covered:
 - Bulleted and numbered lists
 - Blocks and alert blocks
 - Columns and layouts
-- Themes and colour themes
-- Fonts and visual formatting
+- Themes, colour themes and fonts
 - Tables and mathematical expressions
 
 ### 03. Advanced Presentations
@@ -50,33 +40,26 @@ Topics covered:
 
 Topics covered:
 - Overlays and incremental content
-- Step-by-step content presentation
 - Inserting images and diagrams
 - Graphs and tables
 - Hyperlinks and navigation
 - Presentation structure
-- Common compilation errors
-- Presentation design principles
+- Compilation issues and presentation design
 - Practical presentation exercise
-
----
 
 ## Learning Objectives
 
 After completing this section, readers should be able to:
 
-1. Understand the purpose of presentation software.
-2. Explain the role of Beamer in LaTeX.
-3. Create a basic Beamer presentation.
-4. Organise content into frames and sections.
-5. Format text and lists.
-6. Apply themes and colour schemes.
-7. Arrange content using columns and blocks.
-8. Insert images, graphs and tables.
-9. Use overlays to reveal content progressively.
-10. Prepare structured technical presentations.
-
----
+1. Explain the role of Beamer in LaTeX.
+2. Create a basic Beamer presentation.
+3. Organise content into frames and sections.
+4. Format text and lists.
+5. Apply themes and colour schemes.
+6. Arrange content using columns and blocks.
+7. Insert images, graphs and tables.
+8. Use overlays to reveal content progressively.
+9. Prepare structured technical presentations.
 
 ## Tools and Technologies
 
@@ -88,21 +71,9 @@ After completing this section, readers should be able to:
 | pdfLaTeX | Presentation compilation |
 | Overleaf | Online LaTeX editing and collaboration |
 
----
-
 ## Practical Work
 
-The practical exercises focus on:
-
-- Creating a Beamer presentation.
-- Designing title and content slides.
-- Applying themes and formatting.
-- Inserting mathematical expressions.
-- Adding diagrams and graphical content.
-- Using overlays for progressive content display.
-- Compiling and exporting presentations.
-
----
+Exercises may include creating a Beamer presentation, designing title and content slides, applying themes, inserting mathematical expressions and diagrams, and using overlays. Record the actual source and compiled output when an exercise is completed.
 
 ## References and Learning Resources
 
