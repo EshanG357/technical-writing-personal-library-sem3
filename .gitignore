@@ -31,7 +31,6 @@ html/
 *.synctex.gz
 *.toc
 *.vrb
-*.pdf
 
 # Python
 __pycache__/
