@@ -405,6 +405,33 @@ Example:
 
 **Important:** `fontspec` requires a compatible Unicode engine, such as XeLaTeX or LuaLaTeX. It does not work with the traditional pdfLaTeX engine.
 
+### Important Note: Font Engine Compatibility
+
+The `fontspec` package allows users to select and use
+system-installed fonts in LaTeX documents.
+
+However, it requires either XeLaTeX or LuaLaTeX.
+
+It is not compatible with the traditional pdfLaTeX engine.
+
+Example:
+
+```latex
+\documentclass{article}
+\usepackage{fontspec}
+
+\setmainfont{Arial}
+
+\begin{document}
+
+This document uses Arial.
+
+\end{document}
+
+Compile this document using XeLaTeX or LuaLaTeX.
+The selected font must be installed and accessible
+to the LaTeX system.
+
 ## 8. Page Background Colours
 
 The `xcolor` package allows the background colour of a page to be changed.

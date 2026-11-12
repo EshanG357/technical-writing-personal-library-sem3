@@ -40,6 +40,19 @@ Instead of manually writing every reference inside the document, users maintain 
 
 This makes references easier to manage and update.
 
+### BibTeX and BibLaTeX
+
+BibTeX is a traditional bibliography processing tool
+commonly used with LaTeX.
+
+BibLaTeX is a separate, more flexible bibliography
+management package that commonly uses Biber as its
+backend.
+
+Their commands and compilation workflows differ.
+The examples in this chapter specifically demonstrate
+the traditional BibTeX workflow.
+
 ## 4. Creating a Bibliography Database
 
 BibTeX stores reference information in files with the `.bib` extension.
