@@ -13,7 +13,7 @@ This section covers the fundamentals and advanced features of LaTeX for preparin
 - Packages and commands
 - Title, author and date
 - Abstract and sections
-[LaTeX Fundamentals](01-latex-fundamentals.md)
+- [LaTeX Fundamentals](01-latex-fundamentals.md)
 
 ### 2. Document Formatting
 - Page sizes and margins
@@ -35,7 +35,7 @@ This section covers the fundamentals and advanced features of LaTeX for preparin
 - Equations and aligned equations
 - Arrays and matrices
 - Different matrix delimiters
-[Mathematical Typesetting](02-mathematical-typesetting.md)
+- [Mathematical Typesetting](02-mathematical-typesetting.md)
 
 ### 4. Tables
 - Basic tabular environment
@@ -44,7 +44,7 @@ This section covers the fundamentals and advanced features of LaTeX for preparin
 - Merging rows and columns
 - Multi-row and multi-column tables
 - Long tables
-[Tables in LaTeX](03-tables-in-latex.md)
+- [Tables in LaTeX](03-tables-in-latex.md)
 
 ### 5. Figures and Graphics
 - Figure environment
