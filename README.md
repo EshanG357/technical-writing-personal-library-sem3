@@ -5,6 +5,20 @@
 
 This repository documents concepts, tools, workflows, practical exercises, lab assignments, and additional learning undertaken during Semester III.
 
+## Table of Contents
+
+- [Repository Goals](#repository-goals)
+- [Course Coverage](#course-coverage)
+- [Navigate the Library](#navigate-the-library)
+- [Documentation Standards](#how-each-topic-is-documented)
+- [Lab Documentation](#lab-documentation)
+- [Progress Tracker](#progress)
+- [Contributing Guidelines](#contributing-to-this-personal-library)
+- [Academic Integrity](#academic-integrity-and-attribution)
+- [Author](#author)
+
+---
+
 ## Repository goals
 
 - Maintain an organised record of the complete course.
