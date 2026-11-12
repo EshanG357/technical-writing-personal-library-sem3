@@ -1,15 +1,10 @@
-
 # Git and GitHub
 
 ## Overview
 
-This section explores version control using Git and collaborative software development through GitHub.
-
-It covers the fundamentals of repository management, tracking changes, branching, merging, remote repositories, and collaborative development workflows.
+This section explores version control using Git and collaborative software development through GitHub. It covers repository management, tracking changes, branching, merging, remote repositories, and collaborative development workflows.
 
 The documentation follows the concepts and practical exercises covered in the Technical Writing Semester III course.
-
----
 
 ## Contents
 
@@ -18,39 +13,27 @@ The documentation follows the concepts and practical exercises covered in the Te
 [Git Fundamentals and Version Control](01-git-fundamentals.md)
 
 Topics covered:
-- Introduction to version control
-- Types of version control systems
-- Git and its features
-- Git architecture
-- Working directory, staging area and repository
+- Why version control is needed and its benefits
+- Local, centralised and distributed version control systems
+- Git features and architecture
+- Working directory, staging area, local repository and remote repository
 - Git installation and configuration
-- Repository initialisation
-- Basic Git commands
-- Commits and repository history
-- Basic Git workflow
+- Repository initialisation and essential Git commands
+- Commits, history and the basic Git workflow
 
 ### 02. GitHub and Collaborative Development
 
 [GitHub and Collaborative Development](02-github-and-collaboration.md)
 
 Topics covered:
-- Introduction to GitHub
-- Git vs GitHub
-- Local and remote repositories
-- Publishing projects to GitHub
-- Push, pull and fetch
-- Cloning repositories
-- Branching and merging
-- Merge conflicts
-- Pull Requests
-- Code review and collaboration
-- Fork vs clone
-- Authentication and security
-- .gitignore
-- Complete developer workflow
-- Version-controlled calculator mini-project
-
----
+- Git compared with GitHub
+- Remote repositories and publishing projects
+- `git remote`, `git push`, `git pull`, `git fetch` and `git clone`
+- Branching, merging and merge conflicts
+- Pull Requests, code review and collaboration
+- Fork versus clone
+- Authentication, repository security and `.gitignore`
+- Complete developer workflow and version-controlled calculator mini-project
 
 ## Tools and Technologies
 
@@ -62,45 +45,33 @@ Topics covered:
 | Terminal / PowerShell | Executing Git commands |
 | Graphical Git clients | Visual repository management |
 
----
-
 ## Learning Objectives
 
 After completing this section, readers should be able to:
 
-1. Explain the importance of version control.
+1. Explain the need for version control.
 2. Understand Git's distributed architecture.
 3. Initialise and manage local repositories.
-4. Track changes using Git commands.
-5. Create and maintain commits.
-6. Connect local repositories to GitHub.
-7. Work with remote repositories.
-8. Create branches and merge changes.
-9. Resolve merge conflicts.
-10. Collaborate using Pull Requests and code reviews.
-11. Apply Git best practices to academic and software projects.
-
----
+4. Track changes and create commits.
+5. Connect local repositories to GitHub.
+6. Work with remote repositories.
+7. Create branches and merge changes.
+8. Resolve merge conflicts.
+9. Collaborate using Pull Requests and code reviews.
+10. Explain the role of SVN as another version-control system and compare its centralised model with Git's distributed model.
 
 ## Practical Work
 
-The calculator mini-project demonstrates the application of Git and GitHub concepts through a complete development workflow.
+The version-controlled calculator mini-project demonstrates local repository creation, version tracking, remote publishing, feature branching, and Pull Requests.
 
-It covers local repository creation, version tracking, remote publishing, feature branching, and Pull Requests.
-
----
+For safe experimentation, use a practice repository. Never commit passwords, API keys, access tokens, private keys, or personal information. Review `git status` and the staged diff before committing or pushing.
 
 ## References and Learning Resources
-
-### Official Documentation
 
 - [Git Official Website](https://git-scm.com/)
 - [Git Documentation](https://git-scm.com/doc)
 - [GitHub Documentation](https://docs.github.com/)
 - [GitHub Skills](https://skills.github.com/)
-
-### Additional Learning
-
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 
 ### Course Materials
