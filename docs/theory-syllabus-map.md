@@ -1,50 +1,55 @@
-# Theory syllabus map
+# Theory Syllabus Map
 
-This map translates the supplied Technical Writing theory syllabus into documentation areas.
+This map organises the supplied Technical Writing theory syllabus into the library's seven sections. It maps prescribed areas to repository locations without treating the presence of a chapter as proof that all practical work is complete.
 
-## Course content
+## 1. Documentation foundations
 
-### 1. Documentation and tools
-- Introduction to documentation
-- Google Docs
-- Doxygen
-- Drawing software: Inkscape, Xfig, OpenOffice, and similar tools
-- Graph plotting software: gnuplot
-- Version control: Git, GitHub, SVN
+- Introduction to documentation.
+- Google Docs.
+- Doxygen.
 
-### 2. LaTeX foundations
-- Introduction to LaTeX
-- Installation and different IDEs
-- First LaTeX document
-- Article and book document classes
-- Organising content into sections
+**Library:** [01-documentation-foundations](../01-documentation-foundations/README.md)
 
-### 3. Page styling
-- Paper sizes and packages
-- Page margins and layout
-- Headers and footers
-- Page orientation
-- Multiple columns
-- Understanding common error messages
+## 2. LaTeX
 
-### 4. Formatting and content
-- Text styles, sizes, and alignment
-- Colouring text and page elements
-- Bulleted and numbered lists
-- Complex mathematics
+- Introduction to LaTeX, installation and IDEs.
+- First LaTeX document; article and book document classes.
+- Sections and document organisation.
+- Paper sizes, packages, margins, headers, footers, page orientation and multiple columns.
+- Common error messages and troubleshooting.
+- Text styles, sizes, alignment, colours and lists.
+- Complex mathematics.
+- Tables, borders, merging rows and columns, and long tables.
+- Adding, rotating and scaling images.
+- Cross-references, bibliography, references and back index.
 
-### 5. Tables and images
-- Basic tables
-- Simple and dashed borders
-- Merging rows and columns
-- Handling tables larger than a page
-- Adding, rotating, and scaling images
+**Library:** [02-latex](../02-latex/README.md)
 
-### 6. Referencing and indexing
-- Cross-references to sections, tables, and images
-- Bibliography and references
-- Back index
+## 3. Git and GitHub
 
-## Reference
+- Version control concepts and types.
+- Git and GitHub.
+- SVN as named in the supplied course syllabus.
 
-The supplied syllabus lists Leslie Lamport, *LaTeX: A Document Preparation System*, 2nd edition (Addison-Wesley, 1994), and the Doxygen website.
+**Library:** [03-git-and-github](../03-git-and-github/README.md)
+
+## 4. Drawing and graphics
+
+- Drawing software: Inkscape, Xfig, OpenOffice and related tools.
+- Graph plotting software: GNUPlot.
+
+**Library:** [04-drawing-and-graphics](../04-drawing-and-graphics/README.md)
+
+## 5. Beamer and presentations
+
+- Presentation creation and Beamer.
+- Frames, columns, blocks and presentation formatting.
+
+**Library:** [05-beamer-and-presentations](../05-beamer-and-presentations/README.md)
+
+## References stated in the supplied syllabus
+
+- Leslie Lamport, *LaTeX: A Document Preparation System*, 2nd edition, Addison-Wesley, 1994.
+- Doxygen website.
+
+See [references](../references/README.md) for the repository's reference index.
