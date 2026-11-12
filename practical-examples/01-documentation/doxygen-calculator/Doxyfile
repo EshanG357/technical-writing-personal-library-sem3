@@ -1,0 +1,12 @@
+PROJECT_NAME           = "Doxygen Calculator"
+PROJECT_BRIEF          = "A small documented C++ calculator"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = main.cpp
+FILE_PATTERNS          = *.cpp *.h
+RECURSIVE              = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+QUIET                  = YES

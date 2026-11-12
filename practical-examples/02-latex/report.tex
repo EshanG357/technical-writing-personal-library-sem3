@@ -1,0 +1,79 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{A Short Technical Report}
+\author{Technical Writing Practical Example}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introduction}
+This report demonstrates basic LaTeX document preparation, including
+sections, mathematical expressions, tables, figures and cross-references.
+
+\section{Mathematical Typesetting}
+The quadratic equation is
+\begin{equation}
+  ax^2 + bx + c = 0.
+  \label{eq:quadratic}
+\end{equation}
+Its solutions are
+\[
+  x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.
+\]
+
+A matrix can be typeset as
+\[
+A = \begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}.
+\]
+
+\section{Tables}
+Table~\ref{tab:results} presents sample values.
+
+\begin{table}[htbp]
+\centering
+\caption{Sample experimental values}
+\label{tab:results}
+\begin{tabular}{lrr}
+\toprule
+Trial & Input & Output \\
+\midrule
+1 & 2 & 4 \\
+2 & 3 & 9 \\
+3 & 4 & 16 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Figures}
+Figure~\ref{fig:placeholder} demonstrates a caption and label.
+\begin{figure}[htbp]
+\centering
+\fbox{\parbox[c][3cm][c]{0.65\linewidth}{\centering Placeholder for a technical illustration}}
+\caption{A framed placeholder figure}
+\label{fig:placeholder}
+\end{figure}
+
+\section{Cross-References}
+Equation~\ref{eq:quadratic} gives the quadratic form.
+The data are listed in Table~\ref{tab:results}, and the illustration
+appears in Figure~\ref{fig:placeholder}.
+
+\section{Conclusion}
+This small document demonstrates common LaTeX structures used in
+technical reports.
+
+\end{document}
