@@ -78,6 +78,18 @@ html/index.html
 
 The generated documentation can also be produced in LaTeX/PDF and other supported formats.
 
+### Important Note: Documentation Generation
+
+Doxygen generates documentation based on the configuration
+specified in the Doxyfile.
+
+The generated HTML documentation can be viewed directly
+using a web browser.
+
+For PDF documentation, Doxygen first generates LaTeX source
+files. These files must subsequently be compiled using a
+LaTeX distribution to produce the final PDF.
+
 ## 5. Doxygen Documentation Comments
 
 Doxygen recognises specially formatted comments.
@@ -119,6 +131,13 @@ Doxygen provides special commands that describe different aspects of source code
 | `\version` | Specifies the software version |
 | `\see` | References related documentation |
 | `\note` | Adds an additional note |
+| `\file` | Documents a source file |
+| `\class` | Documents a class |
+| `\struct` | Documents a structure |
+| `\details` | Provides a detailed description |
+| `\code` | Begins a code example |
+| `\endcode` | Ends a code example |
+| `\example` | References an example file |
 
 These commands can also be written using the equivalent `@` notation.
 
@@ -191,28 +210,16 @@ The generated documentation can include:
 
 ## 9. Doxygen for Python
 
-Doxygen can also extract documentation from Python docstrings.
+Doxygen can process Python source files when the appropriate
+input files and configuration settings are provided.
 
-Example:
+Python docstrings can contain descriptions of functions,
+parameters, and return values. The documentation format
+should be configured and tested to ensure that Doxygen
+extracts the intended information correctly.
 
-```python
-def foo(bar: int) -> int:
-    """
-    Brief description.
-
-    More details about the function.
-
-    :param bar: Bar parameter
-    :type bar: int
-    :return: Computed value
-    :rtype: int
-    """
-    return bar + 1
-```
-
-The docstring describes the function's purpose, parameter, and return value.
-
-Doxygen can process Python source code when the appropriate input and configuration settings are provided.
+Python documentation conventions may differ from the
+documentation comment conventions commonly used in C++.
 
 ## 10. Configuration File: Doxyfile
 
@@ -286,6 +293,23 @@ Doxygen supports multiple documentation output formats.
 HTML is particularly useful for browsing software documentation.
 
 LaTeX output can be used to produce printable PDF reference manuals.
+
+### Generating PDF Documentation
+
+To generate PDF documentation:
+
+1. Set `GENERATE_LATEX = YES` in the Doxyfile.
+2. Run `doxygen Doxyfile`.
+3. Navigate to the generated `latex` directory.
+4. Compile the generated LaTeX source using an installed
+   LaTeX distribution.
+
+For example, on systems with Make and the required LaTeX
+tools installed:
+
+```bash
+cd latex
+make
 
 ## 12. Advanced Features: Grouping and Diagrams
 
@@ -471,6 +495,17 @@ html/index.html
 ```
 
 The generated website contains the documentation extracted from the C++ source file.
+
+### Expected Output
+
+After successful execution:
+
+- Doxygen generates an HTML documentation directory.
+- The `add()` function appears in the generated documentation.
+- Its description, parameters, and return value are displayed.
+- The documentation can be accessed through `html/index.html`.
+
+The generated output should be verified locally.
 
 ## 15. Common Problems and Solutions
 
