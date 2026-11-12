@@ -277,12 +277,14 @@ Document owners or editors can review suggestions and accept or reject them.
 
 Google Docs supports collaborative editing through:
 
-- Live cursors.
-- Visible changes.
-- Shared document access.
-- Integrated chat for live discussions.
+- Real-time document updates.
+- Visible collaborator cursors and selections.
+- Simultaneous editing by multiple users.
+- Comments and suggestions for feedback.
+- Shared document access with permission controls.
 
-This allows teams to work together without repeatedly exchanging document copies.
+These features allow teams to collaborate without repeatedly
+exchanging separate document copies.
 
 ## 9. Version History and Recovery
 
@@ -415,6 +417,19 @@ These features help manage access to confidential or restricted documents.
 
 Users should review sharing settings before distributing important documents.
 
+### 12.1 Important Security Considerations
+
+- Avoid sharing confidential documents using unrestricted
+  public links.
+- Grant editing permissions only to users who require them.
+- Review document access permissions regularly.
+- Remove access when collaborators no longer require it.
+- Exercise caution when publishing documents to the web.
+
+Sharing permissions and publishing settings should be
+reviewed before distributing sensitive academic or
+professional information.
+
 ## 13. Best Practices for Google Docs Documentation
 
 The following practices help maintain professional and organised documents.
@@ -444,6 +459,16 @@ These practices improve document quality and simplify collaboration.
 ## 14. Practical Exercise: Google Docs Collaboration
 
 The following exercise is based on the practical activity included in the lecture.
+
+### Verification
+
+The exercise is considered complete when:
+
+1. The document is successfully shared.
+2. The collaborator can access it using the assigned permission.
+3. Comments or suggestions can be reviewed.
+4. Version history displays earlier document versions.
+5. The document can be exported into PDF format.
 
 ### Objective
 

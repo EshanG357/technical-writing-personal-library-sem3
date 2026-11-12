@@ -26,7 +26,7 @@ Topics covered:
 - Documentation tools and applications
 - Practical examples
 
-### 02. Documentation Tools
+### Documentation Tools
 
 #### Doxygen
 
@@ -47,7 +47,7 @@ Topics covered:
 
 - [Google Docs — Collaborative Document Creation](04-google-docs.md)
 
-Topics to be covered:
+Topics covered:
 - Introduction and interface
 - Document creation and formatting
 - Headings and table of contents
@@ -103,7 +103,11 @@ After completing this section, readers should be able to:
 
 ## Practical Work
 
-Practical exercises and demonstrations related to documentation tools are maintained alongside their respective topic chapters.
+Practical demonstrations and examples related to documentation tools
+are included alongside their respective topic chapters.
+
+These demonstrations cover automated documentation generation
+using Doxygen and collaborative document creation using Google Docs.
 
 ---
 

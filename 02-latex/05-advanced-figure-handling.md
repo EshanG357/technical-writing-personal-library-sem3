@@ -23,6 +23,24 @@ The lecture discusses the following formats:
 | TIFF | Raster image format |
 | GIF | Graphics Interchange Format |
 
+### Important Note: Graphics Format Compatibility
+
+The graphics formats supported by LaTeX depend on the
+compiler and graphics driver being used.
+
+Traditional LaTeX workflows using DVI and dvips commonly
+use EPS graphics.
+
+Modern PDF-based workflows using pdfLaTeX generally support
+PDF, PNG and JPEG graphics directly.
+
+When using EPS graphics with pdfLaTeX, conversion to PDF
+may be required.
+
+For new projects, PDF, PNG and JPEG are generally more
+convenient formats when compatible with the selected
+compiler.
+
 Mathematical and scientific graphics software such as Mathematica, Maple, MATLAB, IDL, and Xfig can export figures in PS or EPS formats.
 
 The lecture also discusses converting JPEG, GIF, and TIFF images into PostScript formats before importing them into certain LaTeX workflows.
@@ -181,6 +199,19 @@ Example:
 This example creates two images with individual captions and a common figure caption.
 
 Subfigures are useful when comparing different images, graphs, or stages of an experiment.
+
+**Modern Alternative:**
+
+The `subfigure` package used in older examples is obsolete.
+
+For new documents, the `subcaption` package is generally
+recommended.
+
+Example:
+
+```latex
+\usepackage{graphicx}
+\usepackage{subcaption}
 
 ## 9. Figure Positioning and Referencing
 
