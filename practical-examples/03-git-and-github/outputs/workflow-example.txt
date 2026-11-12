@@ -1,0 +1,18 @@
+$ git init
+Initialized empty Git repository
+
+$ git switch -c feature-update
+Switched to a new branch 'feature-update'
+
+$ git add README.md
+$ git commit -m "Update project description"
+[feature-update abc1234] Update project description
+
+$ git switch main
+$ git merge feature-update
+Updating main..abc1234
+Fast-forward
+
+$ git log --oneline --graph --all
+* abc1234 Update project description
+* 123abcd Add initial project
