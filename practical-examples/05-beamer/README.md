@@ -8,14 +8,14 @@ A LaTeX distribution with the Beamer package installed.
 
 ## Compile
 
-```bash
+```powershell
 pdflatex presentation.tex
 ```
 
-Open the generated `presentation.pdf`.
+Open the compiled [presentation.pdf](outputs/presentation.pdf).
 
 ## Expected output
 
 The slide deck contains a title slide, a block, a two-column frame, incremental bullet points and a mathematical expression.
 
-The PDF is a generated build artifact and is not committed. See [outputs/README.md](outputs/README.md).
+The PDF is committed alongside the source. Recompile it whenever you modify `presentation.tex`.
