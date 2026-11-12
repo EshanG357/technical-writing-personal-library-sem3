@@ -13,6 +13,7 @@ This section covers the fundamentals and advanced features of LaTeX for preparin
 - Packages and commands
 - Title, author and date
 - Abstract and sections
+[LaTeX Fundamentals](01-latex-fundamentals.md)
 
 ### 2. Document Formatting
 - Page sizes and margins
@@ -24,6 +25,8 @@ This section covers the fundamentals and advanced features of LaTeX for preparin
 - Text formatting and alignment
 - Fonts and colours
 - Lists and environments
+- [Document Formatting](06-document-formatting.md)
+- [Document Environments, Numbering and Troubleshooting](07-document-environments-and-troubleshooting.md)
 
 ### 3. Mathematical Typesetting
 - Inline and display mathematics
@@ -32,6 +35,7 @@ This section covers the fundamentals and advanced features of LaTeX for preparin
 - Equations and aligned equations
 - Arrays and matrices
 - Different matrix delimiters
+[Mathematical Typesetting](02-mathematical-typesetting.md)
 
 ### 4. Tables
 - Basic tabular environment
@@ -40,6 +44,7 @@ This section covers the fundamentals and advanced features of LaTeX for preparin
 - Merging rows and columns
 - Multi-row and multi-column tables
 - Long tables
+[Tables in LaTeX](03-tables-in-latex.md)
 
 ### 5. Figures and Graphics
 - Figure environment
@@ -49,6 +54,8 @@ This section covers the fundamentals and advanced features of LaTeX for preparin
 - Picture environment
 - Lines, vectors, boxes and coordinates
 - Subfigures
+- [Colours, Figures and Picture Environment](04-colours-figures-picture-environment.md)
+- [Advanced Figure Handling](05-advanced-figure-handling.md)
 
 ### 6. References and Indexing
 - Labels and cross-references
@@ -56,6 +63,7 @@ This section covers the fundamentals and advanced features of LaTeX for preparin
 - BibTeX
 - Citation styles
 - Index creation using MakeIndex
+- [Bibliography, Citations and Indexing](08-bibliography-citations-and-indexing.md)
 
 ## Practical Examples
 
