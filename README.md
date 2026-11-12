@@ -1,100 +1,124 @@
+
 # Technical Writing: A Personal Library
 
-## Semester III
+## Semester III — MNIT Jaipur
 
-> A structured academic and practical knowledge repository for the Technical Writing and Technical Writing Lab courses at MNIT Jaipur.
+A structured academic and practical knowledge repository for the Technical Writing and Technical Writing Laboratory courses.
 
-This repository documents course concepts, tools, workflows, practical exercises, lab assignments, source files, output evidence, and additional learning undertaken during Semester III.
+This repository documents course concepts, technical tools, workflows, practical exercises, laboratory assignments, source files, output evidence, and additional learning undertaken during Semester III.
+
+---
 
 ## Table of Contents
 
 - [Repository Goals](#repository-goals)
 - [Course Coverage](#course-coverage)
 - [Navigate the Library](#navigate-the-library)
-- [Documentation Standards](#how-each-topic-is-documented)
-- [Lab Documentation](#lab-documentation)
-- [Progress Tracker](#progress)
-- [Contributing Guidelines](#contributing-to-this-personal-library)
+- [Documentation Standards](#documentation-standards)
+- [Laboratory Work](#laboratory-work)
+- [Progress Tracking](#progress-tracking)
 - [Academic Integrity](#academic-integrity-and-attribution)
+- [Contributing](#contributing)
 - [Author](#author)
 
 ---
 
-## Repository goals
+## Repository Goals
 
-- Maintain an organised record of the course.
-- Explain concepts with concise notes and deeper technical documentation.
-- Preserve practical examples, source files, and output evidence.
+- Maintain an organised record of the complete course.
+- Explain technical concepts through structured notes and examples.
+- Preserve practical exercises, source files, and output evidence.
 - Demonstrate responsible use of Git and GitHub.
-- Provide a useful reference for revision and future projects.
+- Provide a useful reference for examination revision and future projects.
 
-## Course coverage
+## Course Coverage
 
-| Area | Coverage |
+| Area | Topics |
 |---|---|
-| Documentation | Google Docs, Doxygen |
-| LaTeX | Installation, editors, document classes, article/book structures |
-| Page styling | Paper sizes, margins, headers, footers, orientation, columns |
-| Formatting | Text styles, size, alignment, colours, lists |
-| Advanced documents | Mathematics, tables, images |
-| References | Cross-references, bibliography, indexing |
-| Presentations | Beamer, frames, columns, blocks |
-| Drawing | Inkscape, Xfig, OpenOffice Draw, draw.io |
-| Graph plotting | GNUPlot, Python Matplotlib |
-| Version control | Git, GitHub, SVN |
+| Documentation | Technical documentation, Google Docs, Doxygen |
+| LaTeX | Installation, editors, document classes, formatting |
+| Mathematics | Mathematical expressions, equations and matrices |
+| Tables and Figures | Tables, borders, images, captions and references |
+| Advanced Documents | Bibliography, citations and indexing |
+| Presentations | Beamer, frames, columns, blocks and overlays |
+| Drawing and Graphics | Inkscape, Xfig, OpenOffice Draw and diagrams.net |
+| Graph Plotting | GNUPlot and Python Matplotlib |
+| Version Control | Git, GitHub and SVN |
 
-See the [theory syllabus map](docs/theory-syllabus-map.md), [lab syllabus map](docs/lab-syllabus-map.md), and [course coverage checklist](docs/course-coverage.md).
+For detailed syllabus alignment, refer to the [theory syllabus map](docs/theory-syllabus-map.md), [laboratory syllabus map](docs/lab-syllabus-map.md), and [course coverage checklist](docs/course-coverage.md).
 
-## Navigate the library
+## Navigate the Library
 
 | Section | Contents |
 |---|---|
-| [01 — Documentation foundations](01-documentation-foundations/README.md) | Technical documentation, Doxygen, Google Docs |
-| [02 — LaTeX](02-latex/README.md) | Setup, document structure, styling, mathematics, tables, figures, references |
-| [03 — Git and GitHub](03-git-and-github/README.md) | Version control, Git commands, GitHub, branching and collaboration |
-| [04 — Drawing and graphics](04-drawing-and-graphics/README.md) | Vector graphics, diagrams, graph plotting, graphics formats |
-| [05 — Beamer and presentations](05-beamer-and-presentations/README.md) | Beamer, slide creation, formatting and advanced presentations |
-| [06 — Lab work](06-lab-work/README.md) | Four lab units, practical exercises and evidence |
-| [07 — Additional learning](07-additional-learning/README.md) | Topics explored beyond the prescribed syllabus |
-| [Documentation templates](templates/README.md) | Reusable topic and lab templates |
+| [01 — Documentation Foundations](01-documentation-foundations/README.md) | Technical documentation, Doxygen and Google Docs |
+| [02 — LaTeX](02-latex/README.md) | Fundamentals, mathematics, tables, figures and document formatting |
+| [03 — Git and GitHub](03-git-and-github/README.md) | Version control, Git commands, branching and collaboration |
+| [04 — Drawing and Graphics](04-drawing-and-graphics/README.md) | Vector graphics, diagrams, graph plotting and graphics formats |
+| [05 — Beamer and Presentations](05-beamer-and-presentations/README.md) | Presentation creation, slide formatting and advanced Beamer |
+| [06 — Laboratory Work](06-lab-work/README.md) | Four laboratory units, exercises and practical evidence |
+| [07 — Additional Learning](07-additional-learning/README.md) | Topics explored beyond the prescribed syllabus |
+| [Documentation Templates](templates/README.md) | Reusable topic and laboratory report templates |
 | [References](references/README.md) | Books, official documentation and learning resources |
-| [Course maps and tracking](docs/) | Theory map, lab map and progress checklist |
+| [Documentation and Syllabus Maps](docs/) | Course coverage, theory and laboratory syllabus maps |
 
-## How each topic is documented
+## Documentation Standards
 
-Topic pages aim to include:
+Topic documentation should aim to include:
 
-1. Overview and learning objectives
-2. Key concepts and terminology
-3. Step-by-step explanation
-4. Syntax, commands or workflow where relevant
-5. Practical example
-6. Output or screenshots where useful
-7. Common errors and troubleshooting
-8. Summary and references
+1. Overview and learning objectives.
+2. Key concepts and terminology.
+3. Detailed explanations.
+4. Relevant syntax, commands or workflows.
+5. Practical examples.
+6. Output, diagrams or screenshots where appropriate.
+7. Common errors and troubleshooting.
+8. References and further reading.
 
-Not every element is necessary for every topic. Documentation should remain useful rather than padded.
+The structure may be adapted according to the subject. Documentation should prioritise clarity, correctness and practical usefulness rather than unnecessary length.
 
-## Lab documentation
+## Laboratory Work
 
-Each lab record should include the actual problem or task, objective, tools used, procedure, source files, output evidence, observations, and conclusion where applicable. The four unit folders follow the supplied lab syllabus.
+Laboratory documentation is organised according to the four units in the supplied laboratory syllabus.
 
-Use the template in [templates/lab-report-template.md](templates/lab-report-template.md).
+Each practical record should include, where applicable:
 
-## Progress
+- Actual task statement and objective.
+- Tools and technologies used.
+- Procedure and implementation.
+- Source files and commands.
+- Screenshots or generated output.
+- Observations and conclusion.
 
-The repository is being populated progressively. The [course coverage checklist](docs/course-coverage.md) distinguishes topics documented in the library from work not yet added or reviewed. A topic should only be marked complete after its contents have been checked.
+Use the [laboratory report template](templates/lab-report-template.md) when documenting practical work.
 
-## Contributing to this personal library
+Only include assignments and results that have actually been completed.
 
-This is an individual learning repository. Updates are made through documented changes and meaningful Git commits. See [CONTRIBUTING.md](CONTRIBUTING.md).
+## Progress Tracking
 
-## Academic integrity and attribution
+The [course coverage checklist](docs/course-coverage.md) tracks the documentation and review status of syllabus topics.
 
-Explanations, code, diagrams, screenshots, and external resources should be attributed where appropriate. Any AI-assisted material should be reviewed, tested, and adapted to reflect the author's understanding and course requirements. Practical work and outputs must represent work actually completed.
+A topic should only be marked as documented and reviewed after its corresponding material has been checked.
+
+## Academic Integrity and Attribution
+
+- Attribute external sources, diagrams, code and other material where appropriate.
+- Review, test and understand AI-assisted content before including it.
+- Ensure that practical exercises and reported results represent work actually completed.
+- Never include passwords, API keys, access tokens or other confidential information in the repository.
+
+## Contributing
+
+This is an individual academic learning repository. Changes should be organised into meaningful commits and documented appropriately.
+
+Refer to [CONTRIBUTING.md](CONTRIBUTING.md) for repository contribution practices.
 
 ## Author
 
 **Eshan Garg**  
 B.Tech — Semester III  
-MNIT Jaipur | Technical Writing
+Malaviya National Institute of Technology Jaipur (MNIT Jaipur)
+
+---
+
+*Technical Writing — Personal Knowledge Repository | Semester III*
