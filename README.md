@@ -90,6 +90,16 @@ The [course coverage document](docs/course-coverage.md) records the topics inclu
 - Ensure that reported results represent work actually completed.
 - Never include passwords, API keys, access tokens or other confidential information in the repository.
 
+## Licenses
+
+- Original source-code examples: [MIT License](LICENSE).
+- Original written documentation: [CC BY 4.0](LICENSE-DOCUMENTATION.md).
+- Third-party materials remain subject to their own copyright and license terms; see their individual attributions.
+
+## Acknowledgements
+
+Course materials and instruction provided as part of the Technical Writing and Technical Writing Laboratory courses at MNIT Jaipur informed this learning repository. External tools and resources are credited in the [references catalogue](references/README.md).
+
 ## Contributing
 
 This is an individual academic learning repository. Changes should be organised into meaningful commits and documented appropriately.
