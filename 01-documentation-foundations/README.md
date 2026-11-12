@@ -1,10 +1,20 @@
-# Documentation foundations
 
-This section covers documentation practices and tools introduced in the course.
+# Documentation Foundations
+
+This section explores the fundamentals of technical documentation, communication, and documentation tools.
 
 ## Topics
-- [ ] Technical documentation: purpose, audience, structure, and clarity
-- [ ] Google Docs for documents and presentations
-- [ ] Doxygen: documenting source code and generating documentation
 
-Add one Markdown page per substantial topic. Include a small worked example where possible.
+| No. | Topic | Status |
+|---|---|---|
+| 01 | [Introduction to Technical Documentation](introduction-to-technical-documentation.md) | Completed |
+| 02 | Google Docs | Pending |
+| 03 | Doxygen | Pending |
+| 04 | Documentation standards and practices | Pending |
+
+## Learning Objectives
+
+- Understand the purpose of technical documentation.
+- Identify different types of technical documents.
+- Apply principles of effective technical writing.
+- Understand commonly used documentation tools.
